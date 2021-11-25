@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		E5BE057A274FD4B7004B48B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE0579274FD4B7004B48B9 /* AppDelegate.swift */; };
 		E5BE057C274FD4B7004B48B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE057B274FD4B7004B48B9 /* SceneDelegate.swift */; };
-		E5BE057E274FD4B7004B48B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE057D274FD4B7004B48B9 /* ViewController.swift */; };
 		E5BE0581274FD4B7004B48B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BE057F274FD4B7004B48B9 /* Main.storyboard */; };
 		E5BE0584274FD4B7004B48B9 /* CatAPITestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5BE0582274FD4B7004B48B9 /* CatAPITestProject.xcdatamodeld */; };
 		E5BE0586274FD4BA004B48B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BE0585274FD4BA004B48B9 /* Assets.xcassets */; };
 		E5BE0589274FD4BA004B48B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BE0587274FD4BA004B48B9 /* LaunchScreen.storyboard */; };
+		E5BE059A274FD604004B48B9 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE0599274FD604004B48B9 /* UIImage.swift */; };
+		E5BE059C274FD63E004B48B9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE059B274FD63E004B48B9 /* NetworkManager.swift */; };
+		E5BE059E274FD66E004B48B9 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE059D274FD66E004B48B9 /* Breed.swift */; };
+		E5BE05A0274FD687004B48B9 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE059F274FD687004B48B9 /* Image.swift */; };
+		E5BE05A2274FD924004B48B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE05A1274FD924004B48B9 /* MainView.swift */; };
+		E5BE05A4274FDD38004B48B9 /* CatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE05A3274FDD38004B48B9 /* CatListCell.swift */; };
+		E5BE05A6274FDD9E004B48B9 /* ListOfCatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE05A5274FDD9E004B48B9 /* ListOfCatsView.swift */; };
+		E5BE05A9274FDE69004B48B9 /* ListOfCatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE05A8274FDE69004B48B9 /* ListOfCatsViewModel.swift */; };
+		E5BE05AB274FE5AC004B48B9 /* DetailCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE05AA274FE5AC004B48B9 /* DetailCatView.swift */; };
+		E5BE05AD274FE5D7004B48B9 /* DetailCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE05AC274FE5D7004B48B9 /* DetailCatViewModel.swift */; };
+		E5BE05AF274FE864004B48B9 /* PhotoOfCatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE05AE274FE864004B48B9 /* PhotoOfCatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5BE0576274FD4B7004B48B9 /* CatAPITestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAPITestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BE0579274FD4B7004B48B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BE057B274FD4B7004B48B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5BE057D274FD4B7004B48B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5BE0580274FD4B7004B48B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5BE0583274FD4B7004B48B9 /* CatAPITestProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatAPITestProject.xcdatamodel; sourceTree = "<group>"; };
 		E5BE0585274FD4BA004B48B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BE0588274FD4BA004B48B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5BE058A274FD4BA004B48B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BE0599274FD604004B48B9 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		E5BE059B274FD63E004B48B9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E5BE059D274FD66E004B48B9 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		E5BE059F274FD687004B48B9 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E5BE05A1274FD924004B48B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E5BE05A3274FDD38004B48B9 /* CatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListCell.swift; sourceTree = "<group>"; };
+		E5BE05A5274FDD9E004B48B9 /* ListOfCatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCatsView.swift; sourceTree = "<group>"; };
+		E5BE05A8274FDE69004B48B9 /* ListOfCatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCatsViewModel.swift; sourceTree = "<group>"; };
+		E5BE05AA274FE5AC004B48B9 /* DetailCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCatView.swift; sourceTree = "<group>"; };
+		E5BE05AC274FE5D7004B48B9 /* DetailCatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailCatViewModel.swift; path = CatAPITestProject/Views/DetailCatViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E5BE05AE274FE864004B48B9 /* PhotoOfCatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOfCatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +78,98 @@
 		E5BE0578274FD4B7004B48B9 /* CatAPITestProject */ = {
 			isa = PBXGroup;
 			children = (
-				E5BE0579274FD4B7004B48B9 /* AppDelegate.swift */,
-				E5BE057B274FD4B7004B48B9 /* SceneDelegate.swift */,
-				E5BE057D274FD4B7004B48B9 /* ViewController.swift */,
-				E5BE057F274FD4B7004B48B9 /* Main.storyboard */,
-				E5BE0585274FD4BA004B48B9 /* Assets.xcassets */,
-				E5BE0587274FD4BA004B48B9 /* LaunchScreen.storyboard */,
+				E5BE0596274FD581004B48B9 /* Extension */,
+				E5BE0590274FD514004B48B9 /* NetworkManager */,
+				E5BE0595274FD56F004B48B9 /* CellManager */,
+				E5BE0591274FD520004B48B9 /* Models */,
+				E5BE0593274FD542004B48B9 /* Views */,
+				E5BE0592274FD535004B48B9 /* ViewModels */,
+				E5BE0594274FD549004B48B9 /* Storyboards */,
+				E5BE0597274FD5C7004B48B9 /* App */,
+				E5BE0598274FD5D8004B48B9 /* SupportFiles */,
 				E5BE058A274FD4BA004B48B9 /* Info.plist */,
 				E5BE0582274FD4B7004B48B9 /* CatAPITestProject.xcdatamodeld */,
 			);
 			path = CatAPITestProject;
+			sourceTree = "<group>";
+		};
+		E5BE0590274FD514004B48B9 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE059B274FD63E004B48B9 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		E5BE0591274FD520004B48B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE059D274FD66E004B48B9 /* Breed.swift */,
+				E5BE059F274FD687004B48B9 /* Image.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5BE0592274FD535004B48B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE05A8274FDE69004B48B9 /* ListOfCatsViewModel.swift */,
+				E5BE05AC274FE5D7004B48B9 /* DetailCatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E5BE0593274FD542004B48B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE05A1274FD924004B48B9 /* MainView.swift */,
+				E5BE05A5274FDD9E004B48B9 /* ListOfCatsView.swift */,
+				E5BE05AA274FE5AC004B48B9 /* DetailCatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5BE0594274FD549004B48B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE057F274FD4B7004B48B9 /* Main.storyboard */,
+				E5BE0587274FD4BA004B48B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5BE0595274FD56F004B48B9 /* CellManager */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE05A3274FDD38004B48B9 /* CatListCell.swift */,
+				E5BE05AE274FE864004B48B9 /* PhotoOfCatCell.swift */,
+			);
+			path = CellManager;
+			sourceTree = "<group>";
+		};
+		E5BE0596274FD581004B48B9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE0599274FD604004B48B9 /* UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E5BE0597274FD5C7004B48B9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE0579274FD4B7004B48B9 /* AppDelegate.swift */,
+				E5BE057B274FD4B7004B48B9 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E5BE0598274FD5D8004B48B9 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE0585274FD4BA004B48B9 /* Assets.xcassets */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +243,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5BE057E274FD4B7004B48B9 /* ViewController.swift in Sources */,
+				E5BE05AF274FE864004B48B9 /* PhotoOfCatCell.swift in Sources */,
+				E5BE05A0274FD687004B48B9 /* Image.swift in Sources */,
+				E5BE05A2274FD924004B48B9 /* MainView.swift in Sources */,
+				E5BE059E274FD66E004B48B9 /* Breed.swift in Sources */,
 				E5BE057A274FD4B7004B48B9 /* AppDelegate.swift in Sources */,
+				E5BE059A274FD604004B48B9 /* UIImage.swift in Sources */,
+				E5BE05A4274FDD38004B48B9 /* CatListCell.swift in Sources */,
+				E5BE05AD274FE5D7004B48B9 /* DetailCatViewModel.swift in Sources */,
+				E5BE05A9274FDE69004B48B9 /* ListOfCatsViewModel.swift in Sources */,
+				E5BE05A6274FDD9E004B48B9 /* ListOfCatsView.swift in Sources */,
+				E5BE05AB274FE5AC004B48B9 /* DetailCatView.swift in Sources */,
+				E5BE059C274FD63E004B48B9 /* NetworkManager.swift in Sources */,
 				E5BE057C274FD4B7004B48B9 /* SceneDelegate.swift in Sources */,
 				E5BE0584274FD4B7004B48B9 /* CatAPITestProject.xcdatamodeld in Sources */,
 			);
